@@ -1,0 +1,67 @@
+.container {
+  position: relative;
+  width: 100%;
+  height:100%;
+}
+.imageOne {
+  width: 100%;
+  height:100%;
+}
+.imageTwo {
+  position: absolute;
+  bottom: 10%;
+  right: 20%;
+  
+}
+.imageThree {
+	position:absolute;
+	bottom:10%;
+	left: 10%;
+}
+
+#wrong {
+	position:absolute;
+	width:200px;
+	height:150px;
+	right:15%;
+	bottom:40%;
+	border:2px solid white;
+	font-size:15px;
+	font-weight:bold;
+}
+
+#right {
+	position:absolute;
+	width:400px;
+	height:150px;
+	left:10%;
+	bottom:50%;
+	border:2px solid black;
+	font-size:70px; 
+	text-align:center; 
+	font-weight:bold;
+}
+
+
+
+#health1 {
+	position:absolute;
+	width:400px;
+	height:10px;
+	left:10%;
+	bottom:44%;
+	background-color:red;
+	border:2px solid black;
+	
+	}
+
+#health2 {
+	position:absolute;
+	width:200px;
+	height:10px;
+	right:15%;
+	bottom:27%;
+	background-color:red;
+	border:2px solid black;
+	
+}
