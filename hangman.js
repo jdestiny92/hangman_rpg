@@ -1,4 +1,4 @@
-//alert("Welcome to my Hangman RPG! Press any key to begin. The rules are exactly like hangman. Will you save the world or be consumed by darkness instead?")
+alert("Welcome to my Hangman RPG! Press any key to begin. The rules are exactly like hangman. Will you save the world or be consumed by darkness instead?")
 
 
 var wrongChoice = [];
