@@ -1,4 +1,4 @@
-alert("Welcome to my Hangman RPG! Press any key to begin. The rules are exactly like hangman. Will you save the world or be consumed by darkness instead?")
+alert("Welcome to my Hangman RPG! Press any key to begin. The rules are exactly like hangman. Will you save the world or be consumed by darkness?")
 
 
 var wrongChoice = [];
@@ -68,6 +68,7 @@ document.onkeyup = function(event) {
 	if(i==1){
 		var stop = document.getElementById('themeMusic');
 		stop.pause();
+		document.onkeyup = null;
 		new Audio('gameOver.mp3').play();
 		alert("Game Over!");
 	}
@@ -75,6 +76,7 @@ document.onkeyup = function(event) {
 	if(j==1){
 		var stop = document.getElementById('themeMusic');
 		stop.pause();
+		document.onkeyup = null;
 		new Audio('victory.mp3').play();
 		alert("You Win!");
 	}
