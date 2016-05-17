@@ -69,16 +69,15 @@ document.onkeyup = function(event) {
 		var stop = document.getElementById('themeMusic');
 		stop.pause();
 		document.onkeyup = null;
-		new Audio('gameOver.mp3').play();
-		alert("Game Over!");
+		location.replace('gameOver.html');
+		
 	}
 
 	if(j==1){
 		var stop = document.getElementById('themeMusic');
 		stop.pause();
 		document.onkeyup = null;
-		new Audio('victory.mp3').play();
-		alert("You Win!");
+		location.replace('victory.html');
 	}
 }
 
