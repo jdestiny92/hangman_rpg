@@ -7,14 +7,22 @@
 img {position: relative; width:50%; height:50%; margin-top:10%; margin-left:25%; border:5px solid white;};
 
 </style>    
-    
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 
 <body style="background:black;">
-<audio src="victory.mp3" autoplay loop></audio>
+
 
 <img src="http://www.quartertothree.com/fp/wp-content/uploads/2011/06/Victory-Screen.jpg" />
 
+
+<script>
+
+$(document).ready(function(){
+	new Audio('victory.mp3').play();
+});
+
+</script>
 
 </body>
 </html>

@@ -7,15 +7,20 @@
 img {position: relative; width:65%; margin-left:16%;};
 
 </style>    
-    
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>  
 </head>
 
 <body style="background:black;">
-<audio src="gameOver.mp3" autoplay loop></audio>
+
 
 <img src="http://orig03.deviantart.net/7023/f/2013/288/2/3/final_fantasy_viii___game_over_screen__wip__by_shindeor-d6ql5hy.png" />
 
 <script>
+
+$(document).ready(function(){
+
+new Audio('gameOver.mp3').play();
+
 function retry(){
 	var retry = confirm("Retry?");
 		if (retry == true){
@@ -25,6 +30,7 @@ function retry(){
 
 window.setTimeout(retry, 1000);
 
+});
 </script>
 </body>
 </html>

@@ -1,3 +1,5 @@
+
+
 alert("Welcome to my Hangman RPG! Press any key to begin. The rules are exactly like hangman. Will you save the world or be consumed by darkness?")
 
 
@@ -80,4 +82,5 @@ document.onkeyup = function(event) {
 		location.replace('victory.html');
 	}
 }
+
 
