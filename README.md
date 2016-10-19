@@ -1,1 +1,1 @@
-# hangman_rpg
+# Hangman RPG
