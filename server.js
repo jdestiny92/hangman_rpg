@@ -17,7 +17,7 @@ app.get('/choice', function(req, res){
 		var choice = randomWords();
 
 		if(choice.length == 4){
-			console.log(choice);
+			//console.log(choice);
 			res.json({word: choice});
 		}
 		else{
